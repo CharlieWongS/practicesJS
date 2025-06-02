@@ -1,2 +1,2 @@
 # practicesJS
-practices
+some practices
