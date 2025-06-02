@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(222, 174, 115);
+    display: flex;
+    justify-content: center;
+}
+
+.control {
+    background-color: rgb(223, 255, 255);
+    width: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 4ch;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.5);
+}
+
+.inputArea{
+    display: flex;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.itemInput {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.button {
+    background-color: rgb(222, 174, 115);
+    border: none;
+    color: blanchedalmond;
+    padding: 10px 15px;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.button:hover{
+    opacity: 1;
+}
+
+.list{
+    list-style-type: none;
+    
+
+}
+
+.list li{
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list label{
+    flex-grow: 1;
+
+}
+
+.checkBox{
+    margin-right: 15px;
+}
+
+.rubbishBin{
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.rubbishBin:hover{
+    opacity: 1;
+}
